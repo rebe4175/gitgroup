@@ -1,0 +1,56 @@
+#container {
+
+    background-color: black;
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+
+.color {
+
+    font-family: sans-serif;
+    font-size: .8em;
+    color: white;
+    padding-top: 2vh;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+
+}
+
+.color:hover {
+
+    cursor: pointer;
+    color: lightgray;
+    transition: .2s ease;
+}
+
+.one, .two, .three, .four {
+
+    width: 20vw;
+    height: 5vh;
+
+}
+
+.one {
+
+    background-color: blue;
+}
+
+.two {
+
+    background-color: red;
+}
+
+.three {
+
+    background-color: orange;
+}
+
+.four {
+
+    background-color: hotpink;
+}
